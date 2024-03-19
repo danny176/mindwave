@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 77, 77, 0);
+    padding: 20px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo-name {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Nunito Sans";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: #000000;
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.8px;
+text-transform: uppercase;
+}
+
+.subscribe {
+    padding: 5px 10px;
+align-items: center;
+border-radius: 20px;
+border: 1px solid #000000;
+}
+
+.navbar-logo {
+    width: 25px;
+    height: 22.725px;
+}
+
+.footer-container-pictures {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0vh 62px;
+    margin-top: 10vh;
+}
+
+.copyright {
+    display: inline-flex;
+align-items: flex-start;
+gap: 20px;
+padding: 10px 62px;
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.footer-text-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials {
+    display: flex;
+gap: 20px;
+padding: 10px 62px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #000000;
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.article-head {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+padding: 5vh 2vh;
+
+}
+
+.textwrap {
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    padding-right: 3vh;
+
+}
+
+.picturewrap {
+    position: relative;
+    float: right;
+}
+.article-head h1 {
+    color: #000;
+    font-family: Merriweather;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    padding-bottom: 2vh;
+}
+
+.article-header img {
+    display: block;
+}
+
+.article-head h3 {
+    color: #000;
+font-family: Archivo;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: left;
+}
+
+
+.article-break img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 2vh 2vh;
+}
+
+.date-author {
+    display: flex;
+    padding: 0vh 62px;
+    gap: 1vh;
+    color: #000;
+font-family: Archivo;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.headline-bodytext h1 {
+    color: #000;
+    font-family: Merriweather;
+    font-size: 1.6875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 1vh 0px;
+
+}
+
+.headline-bodytext {
+    width: 45rem;
+    margin: 5vh 0vh 0vh 26%;  
+}
+
+.headline-bodytext p {
+    color: #000;
+    font-family: Merriweather;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 2.25rem */
+    letter-spacing: 0.0625rem;
+    padding: 1vh 0px;
+}
+
+.headline-bodytext h3 {
+    color: #000;
+    font-family: Merriweather;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+    letter-spacing: 0.0625rem;
+}
+
+.article-break-bottom {
+    margin-bottom: 5vh;
+}
+
+.headline-bodytext img {
+    width: 100%;
+    padding-bottom: 2vh; 
+}
