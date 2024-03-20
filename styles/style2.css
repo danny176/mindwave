@@ -153,7 +153,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-align: left;
-padding-top: 2vh;
+padding: 1vh;
 }
 
 
@@ -211,6 +211,7 @@ line-height: normal;
     font-weight: 700;
     line-height: 180%;
     letter-spacing: 0.0625rem;
+    padding: 1vh 0vh;
 }
 
 .article-break-bottom {
